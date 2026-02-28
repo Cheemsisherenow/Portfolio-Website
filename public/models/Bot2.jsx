@@ -7,7 +7,7 @@ import {React,useEffect} from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Bot(props) {
-  const { nodes, materials } = useGLTF('/models/Bot2.glb')
+  const { nodes, materials } = useGLTF('/Portfolio-Website/models/Bot2.glb')
   useEffect(() => {
     console.log('All nodes in Bot2:', nodes)
     console.log('All materials:', materials)
@@ -1130,4 +1130,4 @@ export default function Bot(props) {
   )
 }
 
-useGLTF.preload('/models/Bot2.glb')
+useGLTF.preload('/Portfolio-Website/models/Bot2.glb')

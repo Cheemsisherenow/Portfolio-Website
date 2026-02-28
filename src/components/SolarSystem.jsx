@@ -3,7 +3,7 @@ import { PresentationControls } from '@react-three/drei'
 import Sun1 from '../../public/models/1rd'
 import Sun2 from '../../public/models/2nd'
 import {React, useRef, useEffect} from 'react'
-import Lights from './lights'
+import Lights from './Light'
 import Sunring from '../../public/models/sunring'
 import {Bloom, EffectComposer} from "@react-three/postprocessing"
 import Sun3 from "../../public/models/3rd"

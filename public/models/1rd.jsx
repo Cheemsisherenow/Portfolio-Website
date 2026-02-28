@@ -8,7 +8,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Sun1(props) {
-  const { nodes, materials } = useGLTF('/models/1rd-transformed.glb')
+  const { nodes, materials } = useGLTF('/Portfolio-Website/models/1rd-transformed.glb')
   const material = materials["Material.002"]
 
   material.emissive.set("orange")
@@ -21,4 +21,4 @@ export default function Sun1(props) {
   )
 }
 
-useGLTF.preload('/models/1rd-transformed.glb')
+useGLTF.preload('/Portfolio-Website/models/1rd-transformed.glb')

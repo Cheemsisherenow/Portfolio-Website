@@ -1,5 +1,5 @@
 import { Canvas } from '@react-three/fiber'
-import Lights from './lights'
+import Lights from './Light'
 import {Bloom, EffectComposer} from "@react-three/postprocessing"
 import SolarSystem from './SolarSystem'
 import Stars from './Stars'
