@@ -123,7 +123,7 @@ const Robotics = () => {
                 <Tiltcard>
                     <img src="/Portfolio-Website/FRCweb.png" alt="FRC"/>
                 </Tiltcard>
-                <a target="_blank" rel="noopener noreferrer" href="https://cheemsisherenow.github.io/3318-Website/"className="text-3xl px-16 py-8 rounded-md bg-[#034567]">Website Link</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://cheemsisherenow.github.io/3318-Website/"className="text-3xl text-center px-16 py-8 rounded-md bg-[#034567]">Website Link</a>
             </div>
             
             <div ref={canvasRef} className="relative flex flex-col items-center z-25 w-1/2 h-[90%] bg-transparent">

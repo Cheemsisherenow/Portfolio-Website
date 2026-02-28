@@ -88,7 +88,7 @@ const Physics = () => {
             </div>
             
             <div ref={demoRef} className="absolute flex left-[32.5%] opacity-0 top-[20%] h-[80%] ">
-                <video src="/Portfolio-Website/3bp.mp4" className="w-full max-w-xl h-auto" controls type="video/mp4"/>
+                <video src="/Portfolio-Website/3bp.mp4" className="w-full z-30 max-w-xl h-auto" controls type="video/mp4"/>
             </div>
             
             <div ref={canvasRef} className="relative flex flex-col items-center justify-around z-25 w-1/2 h-[90%] bg-transparent">
