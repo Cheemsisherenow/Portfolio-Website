@@ -64,7 +64,7 @@ const CookieRun = () => {
                 <div className="flex flex-col justify-around h-[100%] w-[80%]">
                     <img src="/Portfolio-Website/cookie.png"/>
                 </div>
-                <a target="_blank" rel="noopener noreferrer" href="https://codehs.com/sandbox/id/cookie-run-clicker-UauP6h" className="px-16 py-8 rounded-md text-2xl bg-[#034567]"> Website Link </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://cookie-run-clicker-13550572.codehs.me/index.html" className="px-16 py-8 rounded-md text-2xl bg-[#034567]"> Website Link </a>
             </div>
         </div>
         
