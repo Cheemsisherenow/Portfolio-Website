@@ -1,12 +1,12 @@
 import gsap from "gsap"
 import { PresentationControls } from '@react-three/drei'
-import Sun1 from '../../public/models/1rd'
-import Sun2 from '../../public/models/2nd'
+import Sun1 from '/Portfolio-Website/models/1rd'
+import Sun2 from '/Portfolio-Website/models/2nd'
 import {React, useRef, useEffect} from 'react'
 import Lights from './Light'
-import Sunring from '../../public/models/sunring'
+import Sunring from "/Portfolio-Website/models/sunring"
 import {Bloom, EffectComposer} from "@react-three/postprocessing"
-import Sun3 from "../../public/models/3rd"
+import Sun3 from "/Portfolio-Website/models/3rd"
 
 const SolarSystem = () =>{
   const groupRef = useRef()
