@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'neuro';
+  src: url('/fonts/neuro.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} 
+html {
+  @apply scroll-smooth;
+}
+@layer components {
+  header{
+    @apply text-xl text-[#ccd7df] font-["neuro"];
+  }
+  #intro{
+    @apply text-8xl text-[#ccd7df] font-["neuro"];
+  }
+  #robotics{
+    @apply text-7xl text-[#ccd7df] font-["neuro"];
+  }
+  #fbla{
+    @apply text-7xl text-[#ccd7df] font-["neuro"];
+  }
+  #cookieRun{
+    @apply text-7xl text-[#ccd7df] font-["neuro"];
+  }
+  #javaFx{
+    @apply text-7xl text-[#ccd7df] font-["neuro"];
+  }
+  #physics{
+    @apply text-7xl text-[#ccd7df] font-["neuro"];
+  }
+  #competition{
+    @apply text-7xl text-[#ccd7df] font-["neuro"];
+  }
+}
