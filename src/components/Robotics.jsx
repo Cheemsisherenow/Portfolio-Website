@@ -4,7 +4,7 @@ import gsap from 'gsap/all'
 import { Html, Center, PresentationControls } from '@react-three/drei'
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { Canvas, useFrame } from '@react-three/fiber'
-import Bot from '../../public/models/Bot2'
+import Bot from './models/Bot2'
 import Lights from './Light'
 import clsx from 'clsx'
 import Tiltcard from './Tilecard'
