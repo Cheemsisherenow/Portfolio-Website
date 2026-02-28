@@ -84,7 +84,7 @@ const Physics = () => {
                 </p>
             </div>
             <div ref={buttonRef} className="absolute group w-[10%] z-30 h-[90vh] right-0 overflow-hidden">
-                <button  onClick ={handleClick} className={clsx("absolute h-25  w-25 top-1/2 right-0 transform -translate-y-1/2 bg-blue-500 text-white px-4 py-2 rounded-full ", expanded ? "transition-transform duration-300 ease-out -translate-x-[155%] group-hover:translate-x-[0%]" : " transition-transform duration-300 ease-out translate-x-full group-hover:-translate-x-1/2")}>-</button>
+                <button  onClick ={handleClick} className={clsx("absolute h-25  w-25 top-1/2 right-0 transform -translate-y-1/2 bg-blue-500 text-white px-4 py-2 rounded-full ", expanded ? "transition-transform duration-300 ease-out -translate-x-[155%] group-hover:translate-x-[0%]" : " transition-transform duration-300 ease-out translate-x-full group-hover:-translate-x-1/2")}>{expanded ? "←":"→"}</button>
             </div>
             
             <div ref={demoRef} className="absolute flex left-[32.5%] opacity-0 top-[20%] h-[80%] ">
